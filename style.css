@@ -23,7 +23,7 @@ img {
 }
 
 .logo {
-  border: 2px;
+  border: 2px solid;
   border-color: #156397 ;
   width: 100px;
   height: 100px;
@@ -108,6 +108,12 @@ i:hover {
 
 div .spacebtw {
   line-height: 10px;
+}
+
+.blue_bold {
+  color: #156397;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 @media (max-width: 960px) {
