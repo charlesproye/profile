@@ -8,18 +8,11 @@ body {
   font-weight: 300;
 }
 
-img {
+img .photo {
   width: 100px;
   height: 100px;
   border-radius:50px;
   box-shadow:0px 10px 30px rgba(0,0,0,0.12);
-}
-
-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  box-shadow:0px 10px 30px rgba(0,0,0,0.1);
 }
 
 img .logo {
@@ -110,7 +103,7 @@ div .spacebtw {
   line-height: 10px;
 }
 
-.blue_bold {
+p .blue_bold {
   color: #156397;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
