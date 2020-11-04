@@ -117,7 +117,7 @@ i:hover {
   line-height: 70px;
 }
 
-.under_card {
+.card .under_card {
   padding: 10px;
   border-radius: 20px;
   width: 430px;
