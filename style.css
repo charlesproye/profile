@@ -1,0 +1,113 @@
+
+body {
+  background-color: #EEF4F9 ;
+  font-family: 'Montserrat', sans-serif;
+  color: #2A2A2A ;
+  font-size: 16px ;
+  line-height: normal;
+  font-weight: 300;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius:50px;
+  box-shadow:0px 10px 30px rgba(0,0,0,0.12);
+}
+
+h1 {
+  color: #156397;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: : 0;
+  display: block;
+  font-size: 2em;
+}
+
+h2 {
+  color: #156397;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+div #button {
+  background-color: rgba(197, 185, 154,0.8);
+  text-decoration: none;
+  color: white;
+  padding:6px;
+  border: 2px solid;
+  border: 2px, #C5B99A;
+  border-color:#C5B99A;
+  border-radius: 5px;
+}
+
+div #button:hover {
+  background-color: white;
+  text-decoration: none;
+  color: #C5B99A;
+  font-weight: 600;
+  border: 2px solid;
+  border-color:#C5B99A;
+  border-radius: 5px;
+  padding:6px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  width: 650px;
+  margin: 20px auto;
+  border: 5px solid;
+  border-color: #C5B99A;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.12)
+}
+
+.list-inline  li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i {
+  color: #156397 ;
+}
+
+i:hover {
+  color: #C5B99A ;
+}
+
+.bold {
+  color: #156397;
+  font-weight: 600;
+}
+
+div .spacebtw {
+  line-height: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 900px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+
+@media (max-width: 650px) {
+  /* For a screen < 720px, this CSS will be read */
+.card {
+    width: 300px;
+}
